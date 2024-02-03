@@ -11,23 +11,26 @@
   <header>
     <h1 class="title">My ToDos</h1>
   </header>
-  <main class="wrapper">
-    <section class="todos">
-      <button class="todos__input-button">
-        <svg
-          class="icon-plus"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-        >
-          <title>plus</title>
-          <path d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
-        </svg>
-      </button>
-      <input class="todos__input-text" type="text" name="" id="" />
+  <main>
+    <section id="task-todo" class="wrapper">
+      <article class="todos">
+        <button class="todos__input-button">
+          <svg
+            class="icon-plus"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <title>plus</title>
+            <path d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
+          </svg>
+        </button>
+        <input class="todos__input-text" type="text" name="" id="" />
+      </article>
+      <article class="todos">
+        <input class="todos__input-checkbox" type="checkbox" name="" id="" />
+        <input class="todos__input-text" type="text" name="" id="" />
+      </article>
     </section>
-    <section class="todos">
-      <input class="todos__input-checkbox" type="checkbox" name="" id="" />
-      <input class="todos__input-text" type="text" name="" id="" />
-    </section>
+    <section id="task-done" class="wrapper"></section>
   </main>
 </html>
