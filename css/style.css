@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  background: url("../img/background-light.png");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  font-family: Roboto;
+}
+header {
+  width: 100%;
+  background-color: red;
+  padding: 1rem 0 1rem 2rem;
+  margin-bottom: 2rem;
+  background-color: rgb(41, 128, 185);
+}
+.title {
+  color: #fff;
+  filter: drop-shadow(-1px -1px 0.2rem #111);
+}
+.wrapper {
+  width: min(600px, calc(100% - 2rem));
+  /* width: min(600px, 100%); */
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 1rem 1rem 1rem 2rem;
+  margin: 1rem;
+  border: 1px solid #fff;
+  border-radius: 0.3rem;
+}
+.todos {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin: 1rem 0;
+}
+.icon-plus {
+  width: 2rem;
+}
+.todos__input-checkbox {
+  accent-color: rgb(41, 128, 185);
+  transform: scale(1.6);
+}
+.todos__input-text {
+  width: 100%;
+  border-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border: 0;
+  padding: 1rem;
+  outline: none;
+}
+.todos__input-button {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+}
