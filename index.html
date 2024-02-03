@@ -26,11 +26,28 @@
         </button>
         <input class="todos__input-text" type="text" name="" id="" />
       </article>
+      <hr class="todos-divider" />
+
+      <!-- Detta är ett exempel på vad som ska loopas ut via javascript -->
       <article class="todos">
-        <input class="todos__input-checkbox" type="checkbox" name="" id="" />
-        <input class="todos__input-text" type="text" name="" id="" />
+        <input class="todos__input-checkbox" type="checkbox" />
+        <input
+          class="todos__input-text"
+          type="text"
+          value="Starta code-along"
+        />
       </article>
     </section>
-    <section id="task-done" class="wrapper"></section>
+    <!-- Här ska avklarade Todos hamna -->
+    <section id="task-done" class="wrapper">
+      <article class="todos">
+        <input class="todos__input-checkbox" type="checkbox" checked />
+        <input
+          class="todos__input-text"
+          type="text"
+          value="Göra grunden till code-along"
+        />
+      </article>
+    </section>
   </main>
 </html>
