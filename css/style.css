@@ -20,7 +20,6 @@ header {
   background-color: rgba(41, 128, 185, 0.2);
   box-shadow: 0 -2px 1rem rgba(0, 0, 0, 0.9);
 }
-/* Test */
 main {
   width: min(600px, 100%);
 }
